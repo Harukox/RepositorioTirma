@@ -25,4 +25,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: Harukox/Harukox:latest , Harukox/Harukox:${{github.event.pull_request.title}}
+          tags: Harukox/tirma:latest , Harukox/tirma:${{github.event.pull_request.title}}
