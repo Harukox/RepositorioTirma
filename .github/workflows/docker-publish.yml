@@ -25,4 +25,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: tirma/RepositorioTirma:latest , tirma/RepositorioTirma:${{github.event.pull_request.title}}
+          tags: tirma/repositorioTirma:latest , tirma/repositorioTirma:${{github.event.pull_request.title}}
